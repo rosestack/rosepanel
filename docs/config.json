@@ -1,0 +1,44 @@
+{
+  "shortDescription": "Astonishing web panel to manage your Node.js projects on Windows and Ubuntu",
+  "longDescription": "Rosepanel is a cloud panel to manage everything. It's fast, secure and easy to use.",
+  "features": [
+    {
+      "name": "Fast",
+      "description": "rosection"
+    },
+    {
+      "name": "Fast",
+      "description": "rosection"
+    },
+    {
+      "name": "Fast",
+      "description": "rosection"
+    },
+    {
+      "name": "Fast",
+      "description": "rosection"
+    }
+  ],
+  "action": {
+    "primary": {
+      "name": "Getting Started",
+      "url": "getting-started"
+    },
+    "secondary": {
+      "name": "Introduction",
+      "url": "introduction"
+    }
+  },
+  "navbar": [
+  ],
+  "sidebar": [
+    {
+      "name": "Introduction",
+      "url": "introduction"
+    },
+    {
+      "name": "Getting Started",
+      "url": "getting-started"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[Unit]
+Description="Rosepanel"
+After=network.target
+
+[Service]
+WorkingDirectory=/www/rosepanel/
+ExecStart=/usr/bin/sudo /www/rosepanel/scripts/start.sh
+
+[Install]
+WantedBy=multi-user.target

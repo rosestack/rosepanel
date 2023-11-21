@@ -1,0 +1,28 @@
+{
+  "name": "rosepanel",
+  "type": "module",
+  "scripts": {
+    "watch": "roserepo run watch",
+    "dev": "roserepo run dev",
+    "build": "roserepo run build",
+    "start": "roserepo run start",
+    "lint": "roserepo run lint",
+    "upgrade": "roserepo upgrade"
+  },
+  "dependencies": {
+    "rosepack": "^1.0.6",
+    "roserepo": "^1.0.10"
+  },
+  "devDependencies": {
+    "@meslzy/eslint-config": "0.5.7",
+    "@meslzy/tsconfig": "^0.2.2",
+    "@types/node": "^20.9.1",
+    "typescript": "^5.3.2",
+    "nodemon": "^3.0.1",
+    "eslint": "^8.54.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true
+}

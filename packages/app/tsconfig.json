@@ -1,0 +1,37 @@
+{
+  "extends": "@meslzy/tsconfig",
+  "compilerOptions": {
+    "baseUrl": "lib",
+    "rootDir": "lib",
+    "outDir": "dist",
+    "paths": {
+      "~/*": [
+        "./*"
+      ],
+      "~controllers/*": [
+        "./main/controllers/*"
+      ],
+      "~modules/*": [
+        "./main/modules/*"
+      ],
+      "~services/*": [
+        "./main/services/*"
+      ],
+      "~utils/*": [
+        "./main/utils/*"
+      ],
+      "~www/*": [
+        "./main/www/*"
+      ]
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "lib",
+    "rosepack-d.ts"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
